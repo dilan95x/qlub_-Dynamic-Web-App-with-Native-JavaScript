@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Dynamic Web App with Native JavaScript</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/custom-componets.css" />
+    <link rel="stylesheet" href="../styles/form-style.css" />
+  </head>
+
+  <body class="pagecontainer">
+    <div class="grid-container-align" style="margin-top: 20vh">
+      <div class="form card">
+        <form class="form grid-container">
+          <h1 style="text-align: center">Login</h1>
+          <div class="form grid-item">
+            <label for="email">Email</label>
+            <input class="custom-felid" type="email" name="email" id="email" />
+          </div>
+
+          <div class="form grid-item">
+            <label for="password">Password</label>
+            <input
+              class="custom-felid"
+              type="password"
+              name="password"
+              id="password"
+            />
+          </div>
+          <div class="form error-message"></div>
+
+          <div class="form grid-item">
+            <input class="custom-button-green" type="submit" value="Login" />
+          </div>
+          <div
+            class="form grid-item"
+            style="text-align: center; margin-top: 0.5rem"
+          >
+            <a href="../register/index.html" style="text-decoration: none"
+              >Sign Up</a
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./login.js"></script>
+    <script src="../functions/authCheck.js"></script>
+  </body>
+</html>

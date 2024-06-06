@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Apple",
+    "price": "100",
+    "quantity": "10",
+    "description": "Apple is a fruit that is red in color and round in shape.",
+    "image": "../images/apple.jpeg"
+  },
+  {
+    "name": "Banana",
+    "price": "200",
+    "quantity": "5",
+    "description": "Banana is a fruit that is yellow in color.",
+    "image": "../images/banana.webp"
+  },
+  {
+    "name": "Orange",
+    "price": "300",
+    "quantity": "2",
+    "description": "Orange is a fruit that is orange in color and round in shape.",
+    "image": "../images/orange.jpg"
+  },
+  {
+    "name": "Mango",
+    "price": "400",
+    "quantity": "1",
+    "description": "Mango is a fruit that is green in color and oval in shape.",
+    "image": "../images/mango.webp"
+  }
+]

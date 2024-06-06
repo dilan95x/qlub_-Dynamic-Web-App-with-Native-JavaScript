@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/custom-componets.css" />
+    <link rel="stylesheet" href="../styles/form-style.css" />
+    <link rel="stylesheet" href="../styles/productCard.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+
+    <title>Dashboard | Dynamic Web App with Native JavaScript</title>
+  </head>
+
+  <body class="pagecontainer">
+    <div class="dashboard">
+      <div class="headSection-container">
+        <a href="./index.html">
+          <img class="logo" src="../images/logo.jpg" alt="Logo" />
+        </a>
+        <div class="headSection-right">
+          <div class="user-info"></div>
+          <button class="logout-btn custom-button-blue" onclick="logoutBtn()">
+            Logout
+          </button>
+          <img
+            src="../images/logout.png"
+            class="logout-icon"
+            alt="logout-icon"
+            onclick="logoutBtn()"
+          />
+          <a href="./cart.html">
+            <div class="headSection-cart">
+              <img
+                class="cartIcon"
+                src="../images/shopping-cart.png"
+                alt="shopping-cart"
+              />
+              <div class="cartCount"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="products-container"></div>
+      <script src="../functions/authCheck.js"></script>
+      <script src="../functions/logout.js"></script>
+      <script src="../functions/fetchProducts.js"></script>
+      <script src="../functions/addToCart.js"></script>
+    </div>
+  </body>
+</html>

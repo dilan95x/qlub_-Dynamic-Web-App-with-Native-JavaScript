@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | Dynamic Web App with Native JavaScript</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/custom-componets.css">
+  <link rel="stylesheet" href="../styles/form-style.css">
+</head>
+
+<body class="pagecontainer ">
+
+  <div class="grid-container-align" style="margin-top: 20vh;">
+    <div class="form card">
+      <form class="form grid-container">
+
+        <h1 style="text-align: center;">Register</h1>
+        <div class="form grid-item">
+          <label for="email">Email</label>
+          <input class="custom-felid" type="email" name="email" id="email" />
+        </div>
+
+        <div class="form grid-item">
+          <label for="text">First Name</label>
+          <input class="custom-felid" type="text" name="firstName" id="firstName" />
+        </div>
+
+        <div class="form grid-item">
+          <label for="text">Last Name</label>
+          <input class="custom-felid" type="text" name="lastName" id="lastName" />
+        </div>
+
+        <div class="form grid-item">
+          <label for="password">Password 
+            <span style="font-size: 0.9rem; word-wrap: break-word;">(
+              min 8 characters, One Uppercase, One Lowercase, One Number, One Special Character
+              )</span>
+          </label>
+          <input class="custom-felid" type="password" name="password" id="password" />
+        </div>
+
+        <div class="form grid-item">
+          <label for="confirmPassword">Confirm Password</label>
+          <input class="custom-felid" type="password" name="confirmPassword" id="confirmPassword" />
+        </div>
+        <div class="form error-message"></div>
+
+        <div class="form grid-item" style="text-align: center;">
+          <input class="custom-button-green" type="submit" value="Register" />
+        </div>
+
+        <div class="form grid-item" style="text-align: center; margin-top: 0.5rem;">
+          <a href="../login/index.html" style="text-decoration: none;" >Login</a>
+        </div>
+
+      </form>
+  </div>
+  <script src="./register.js"></script>
+  <script src="../functions/authCheck.js"></script>
+</body>
+
+</html>

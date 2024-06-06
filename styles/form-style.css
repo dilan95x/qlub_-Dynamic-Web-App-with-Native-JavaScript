@@ -1,0 +1,27 @@
+.form.grid-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  max-width: 30rem;
+  min-width: "fit-content";
+}
+
+.form.card {
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  padding-top: 3.625rem;
+  padding-bottom: 3.625rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: "fit-content";
+  border-radius: 0.625rem;
+}
+
+.form.grid-item {
+  text-align: left;
+}
+
+.form label {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
