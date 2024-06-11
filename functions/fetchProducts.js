@@ -1,6 +1,5 @@
 if (window.location.pathname === "/dashboard/index.html") {
   async function loadProducts() {
-    //
     const data = new XMLHttpRequest();
     data.open("GET", "../data/products.json", true);
     data.send();
